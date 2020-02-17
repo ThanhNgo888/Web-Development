@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+
+<body>
+    <a href="blog.html">Blog Page</a>
+    <!-- Heading -->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!-- Paragraph -->
+    <p>Lorem ipsum dolor sit amet consectetur. <strong>This block will be bold by default!</strong> adipisicing elit.
+        Nemo velit, aliquid dolorum recusandae ipsum ab dolore doloremque dolores reiciendis. Voluptas est molestias
+        nemo ad neque reiciendis temporibus earum magni eligendi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur. <em>This block will be emphasize!</em> adipisicing elit. Nemo velit,
+        aliquid dolorum recusandae ipsum ab dolore doloremque dolores reiciendis. Voluptas est molestias nemo ad neque
+        reiciendis <a href="http://google.com" target="_blank">This link will take you to google page with a new tab by
+            using => target="_blank"</a>temporibus earum magni eligendi.</p>
+
+    <!-- unordered list => display with a bullet point-->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+
+    <!-- ordered list => display with numbers-->
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <!--Table Head-->
+            <tr>
+                <!--Table Row-->
+                <th>Name</th>
+                <!--Table Heading-->
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Table Body-->
+            <tr>
+                <td>Tom Ngo</td>
+                <!--Table Data-->
+                <td>Tomngo26@hotmail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Tim Ngo</td>
+                <!--Table Data-->
+                <td>Timngo26@hotmail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Thanh Ngo</td>
+                <!--Table Data-->
+                <td>Thanhngo26@hotmail.com</td>
+                <td>45</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><!-- This is a break between two elements -->
+    <hr><!-- This is a horizontal line -->
+    <br>
+
+    <!-- Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name</label>
+            <input type="text" name="firstName" value="Enter first name" id="">
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Last Name</label>
+            <input type="text" name="lastName" placeholder="Enter last name" id="">
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="">
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Message</label><br>
+            <textarea name="message" id="" cols="50" rows="5"></textarea>
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Gender</label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30" id="">
+        </div>
+        <!-- =============================================== -->
+        <br>
+        <div>
+            <label>Birthday:</label>
+            <input type="date" name="birthday" id="">
+        </div>
+        <br>
+        <!-- =============================================== -->
+        <input type="submit" name="submit" value="Submit" id="">
+    </form>
+    <br>
+    <!-- =============================================== -->
+    <!-- Button -->
+    <button>Click Me</button>
+    <br>
+    <!-- =============================================== -->
+    <!-- Image -->
+    <!-- images/birds.jpg if the file is inside of images folder -->
+    <!-- height is auto if not specified -->
+    <!-- <img src="birds.jpg" alt="Birds Image" width="200" height="140"> -->
+    <!-- =============================================== -->
+    <!-- Image -->
+    <a href="birds.jpg">
+        <img src="birds.jpg" alt="Birds Image" width="200" height="140">
+    </a>
+    <!-- =============================================== -->
+    <!-- Quotations -->
+    <blockquote cite="http://google.com">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint facilis, magni amet aliquam vero ab omnis debitis, ducimus qui tempore nesciunt sequi reprehenderit nulla nam harum saepe officia, dicta expedita!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptatem facere repellendus deleniti reprehenderit incidunt, odio illum exercitationem sapiente iste perspiciatis unde commodi. Maxime quod commodi nam hic sunt repellat.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, soluta, qui ex eius facilis deleniti reprehenderit illum sed sit labore blanditiis consequuntur temporibus deserunt dolor saepe asperiores dignissimos voluptas laborum?
+    </blockquote>
+    <!-- =============================================== -->
+    <p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
+    <p><cite>HTML created</cite> by Thanh Ngo</p>
+
+    <!-- this div will move the page up 500px -->
+    <div style="margin-top:500px"></div>
+</body>
+
+</html>
